@@ -1,0 +1,49 @@
+
+2023-05-06 14:11:15 127.0.0.1
+Output at installerUpdateExecuteController::execute: <br />
+<b>Deprecated</b>:  DurableTar implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) in <b>C:\xampp\htdocs\wa\wa-installer\lib\transport\durabletar.class.php</b> on line <b>15</b><br />
+
+
+2023-05-06 14:25:00 127.0.0.1
+Uncaught Error: No image adapters found. Install ImageMagick or GD extension to enable image-processing functionality.
+with code 500 in 'C:\xampp\htdocs\wa\wa-system\image\waImage.class.php' around line 153
+
+Call stack:
+## wa-system/image/waImage.class.php(153)
+#0 wa-apps/shop/lib/classes/shopImage.class.php(177): waImage::factory('C://xampp//htdocs...')
+#1 wa-apps/shop/lib/config/data/promos.thumb.php(51): shopImage::generateThumb('C://xampp//htdocs...', '900', 1000)
+#2 wa-data/public/shop/promos/thumb.php(5): include('C://xampp//htdocs...')
+#3 {main}
+
+2023-05-06 14:25:00 127.0.0.1
+Uncaught Error: No image adapters found. Install ImageMagick or GD extension to enable image-processing functionality.
+with code 500 in 'C:\xampp\htdocs\wa\wa-system\image\waImage.class.php' around line 153
+
+Call stack:
+## wa-system/image/waImage.class.php(153)
+#0 wa-apps/shop/lib/classes/shopImage.class.php(177): waImage::factory('C://xampp//htdocs...')
+#1 wa-apps/shop/lib/config/data/promos.thumb.php(51): shopImage::generateThumb('C://xampp//htdocs...', '900', 1000)
+#2 wa-data/public/shop/promos/thumb.php(5): include('C://xampp//htdocs...')
+#3 {main}
+
+2023-05-06 14:25:00 127.0.0.1
+Uncaught Error: No image adapters found. Install ImageMagick or GD extension to enable image-processing functionality.
+with code 500 in 'C:\xampp\htdocs\wa\wa-system\image\waImage.class.php' around line 153
+
+Call stack:
+## wa-system/image/waImage.class.php(153)
+#0 wa-apps/shop/lib/classes/shopImage.class.php(177): waImage::factory('C://xampp//htdocs...')
+#1 wa-apps/shop/lib/config/data/promos.thumb.php(51): shopImage::generateThumb('C://xampp//htdocs...', '900', 1000)
+#2 wa-data/public/shop/promos/thumb.php(5): include('C://xampp//htdocs...')
+#3 {main}
+
+2023-05-06 14:25:01 127.0.0.1
+Uncaught Error: No image adapters found. Install ImageMagick or GD extension to enable image-processing functionality.
+with code 500 in 'C:\xampp\htdocs\wa\wa-system\image\waImage.class.php' around line 153
+
+Call stack:
+## wa-system/image/waImage.class.php(153)
+#0 wa-apps/shop/lib/classes/shopImage.class.php(177): waImage::factory('C://xampp//htdocs...')
+#1 wa-apps/shop/lib/config/data/promos.thumb.php(51): shopImage::generateThumb('C://xampp//htdocs...', '900', 1000)
+#2 wa-data/public/shop/promos/thumb.php(5): include('C://xampp//htdocs...')
+#3 {main}
